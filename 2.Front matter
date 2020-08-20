@@ -1,17 +1,24 @@
-Codes:
+Codes(example):
 
 \begin{frontmatter}
-\title{More than one Author with different Affiliations}
-\author[*]{Author A}
-\author[*]{Author B}
-\author[*]{Author C}
-\author[**]{Author D}
-\author[**]{Author E}
-\affil[*]{Department of Computer Science, \LaTeX\ University}
-\affil[**]{Department of Mechanical Engineering, \LaTeX\ University}
+ \title{High-resolution photogrammetric bathymetry for tsunami hazard assessment}
+ 
+ %% 普通作者: author[单位标签a,b,c...]{name}
+ %% 通讯作者: author[单位标签a,b,c...]{name\corref{cor1}}
+ %%          \ead{email.com}
+ %%          \cortext[cor1]{Corresponding author.}
+ \author[label1,label2]{Yu Zhou}
+ \author[label1,label2]{Lejun Lu}
+ \author[label3]{Qiong Zhang\corref{cor1}}
+ \ead{qiong.zhang@ox.ac.uk}
+ \cortext[cor1]{Corresponding author.}
+ \author[label1,label2]{Linlin Li}
+ \author[label1,label2]{Peizhen Zhang}
 
-\renewcommand\Authands{ and }
-
+%% 单位地址: address[单位标签a,b,c...]{organization}
+ \address[label1]{Guangdong Provincial Key Laboratory of Geodynamics and Geohazards, School of Earth Sciences and Engineering, Sun Yat-Sen University, Guangzhou 510275, China.}
+ \address[label2]{Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai), Zhuhai 519082, China.}
+ \address[label3]{Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK.}
 
 \begin{abstract}
 %% Text of abstract
