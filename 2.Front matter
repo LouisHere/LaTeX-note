@@ -1,0 +1,33 @@
+Codes:
+
+\begin{frontmatter}
+\title{More than one Author with different Affiliations}
+\author[*]{Author A}
+\author[*]{Author B}
+\author[*]{Author C}
+\author[**]{Author D}
+\author[**]{Author E}
+\affil[*]{Department of Computer Science, \LaTeX\ University}
+\affil[**]{Department of Mechanical Engineering, \LaTeX\ University}
+
+\renewcommand\Authands{ and }
+
+
+\begin{abstract}
+%% Text of abstract
+
+\end{abstract}
+
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+
+%% PACS codes here, in the form: \PACS code \sep code
+
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+
+\end{keyword}
+
+\end{frontmatter}
+
+
